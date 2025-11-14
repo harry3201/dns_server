@@ -250,31 +250,39 @@ dig @127.0.0.1 -p 2053 nonexistent12345abcd.com A
 ```
 
 ---
-
 ## **Screenshots**
 
-*(Below are the outputs for various queries:)*
+Below are outputs for various DNS queries handled by the server.
 
+### **Folder Structure**
 ```
 assets/
-│── server-startup.png
-│── udp-query.png
-│── tcp-query.png
-│── cache-hit.png
-│── nxdomain.png
+├── server-startup.png
+├── udp-query.png
+├── tcp-query.png
+├── cache-hit.png
+└── nxdomain.png
 
 ```
 
-Example:
 
-```
-![UDP Query](assets/udp-query.png)
+### **Server log Output**
+
+#### **1. Server Startup**
 ![Server Startup](assets/server-startup.png)
+
+#### **2. UDP Query (A Record)**
+![UDP Query](assets/udp-query.png)
+
+#### **3. TCP Query**
 ![TCP Query](assets/tcp-query.png)
+
+#### **4. Cache Hit**
 ![Cache Hit](assets/cache-hit.png)
+
+#### **5. NXDOMAIN Response**
 ![NXDOMAIN](assets/nxdomain.png)
 
-```
 
 ---
 

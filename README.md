@@ -297,7 +297,7 @@ assets/
 
 ---
 
-## **Future Improvements**
+## **Future Improvements that can be added:**
 
 * Implement full iterative DNS resolver
 * Add support for:
@@ -311,15 +311,3 @@ assets/
 * Add unit tests for all record types
 
 ---
-
-# **This README is ready to be added to your GitHub repo.**
-
-If you want, I can now:
-
-✅ Write documentation PDF
-✅ Create architecture diagrams as images
-✅ Add inline code documentation
-✅ Polish the repo for interview
-✅ Prepare your interview explanation script
-
-Just tell me.

@@ -253,22 +253,27 @@ dig @127.0.0.1 -p 2053 nonexistent12345abcd.com A
 
 ## **Screenshots**
 
-*(Add screenshots later — placeholders included below)*
+*(Below are the outputs for various queries:)*
 
 ```
 assets/
-│── <img width="779" height="137" alt="image" src="https://github.com/user-attachments/assets/f118d866-9018-4148-a034-e1b329d07337" />
-
+│── server-startup.png
 │── udp-query.png
 │── tcp-query.png
 │── cache-hit.png
+│── nxdomain.png
+
 ```
 
 Example:
 
 ```
-![Server Log](assets/<img width="779" height="137" alt="image" src="https://github.com/user-attachments/assets/d702bb5b-8394-4613-ae3e-7f6ce2d3dc10" />
-)
+![UDP Query](assets/udp-query.png)
+![Server Startup](assets/server-startup.png)
+![TCP Query](assets/tcp-query.png)
+![Cache Hit](assets/cache-hit.png)
+![NXDOMAIN](assets/nxdomain.png)
+
 ```
 
 ---
